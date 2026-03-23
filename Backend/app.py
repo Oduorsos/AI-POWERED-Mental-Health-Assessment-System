@@ -30,7 +30,7 @@ load_dotenv()
 # CONFIG
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_BASE_URL = os.getenv("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1")
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./medisos.db")
+DATABASE_URL = os.getenv("DATABASE_URL", "#")
 FAISS_INDEX_PATH = os.getenv("FAISS_INDEX_PATH", "./faiss_ppt.index")
 PPTX_PATH = os.getenv("PPTX_PATH", "/mnt/data/AI-powered Mental health Asssessment System.pptx")
 JWT_SECRET = os.getenv("JWT_SECRET", "change_this_super_secret")
