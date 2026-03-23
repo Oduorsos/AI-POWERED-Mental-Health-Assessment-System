@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "Sos12479#";
+$password = "#";
 $dbname = "mental_health_db";
 $port = 3307;
 
